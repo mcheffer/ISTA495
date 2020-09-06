@@ -14,3 +14,27 @@ Hint:
 
 * [How to import a selected number of the columns of a csv file](https://stackoverflow.com/questions/12618232/copy-a-few-of-the-columns-of-a-csv-file-into-a-table/49906327)
 >>>>>>> e24388818c80d8a710860d161196d26620ccf531
+
+3.
+
+CREATE TABLE world (
+    id integer NOT NULL,
+	country text,
+	population text,
+	yearlychange real,
+	netchange integer,
+	area integer,
+    migrants integer,
+    fertility real,
+    medianage integer,
+    urbanpopulation real,
+    PRIMARY KEY (id)
+);
+
+4. Used pgAdmin Import/Export data feature to import world.csv
+
+ALTER TABLE world
+DROP COLUMN yearlychange;
+
+ALTER TABLE world
+DROP COLUMN netchange;
