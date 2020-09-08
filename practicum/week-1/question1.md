@@ -18,17 +18,17 @@ Hint:
 3.
 
 CREATE TABLE world (
-    id integer NOT NULL,
-	country text,
-	population text,
-	yearlychange real,
-	netchange integer,
-	area integer,
-    migrants integer,
-    fertility real,
-    medianage integer,
-    urbanpopulation real,
-    PRIMARY KEY (id)
+  id integer NOT NULL,
+  country text,
+  population integer,
+  yearlychange real,
+  netchange integer,
+  area integer,
+  migrants integer,
+  fertility real,
+  medianage integer,
+  urbanpopulation real,
+  PRIMARY KEY (id)
 );
 
 4. Used pgAdmin Import/Export data feature to import world.csv

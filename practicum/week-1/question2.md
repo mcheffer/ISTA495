@@ -3,3 +3,8 @@ only the followings: name, population and area.
 
 
 
+SELECT country, population, area FROM world
+WHERE area > 2000000
+	OR population > 30000000;
+
+49 rows returned
