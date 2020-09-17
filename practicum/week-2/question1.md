@@ -5,4 +5,4 @@ yourself familiar with Azure Blob Storage
 3. Upload at least 10 files (images, text,...) into Azure Blob Storage using Azure portal.
 
 
-![10 Files](/practicum/week-2/question1.JPG)
+![10 Files](https://raw.githubusercontent.com/mcheffer/ISTA495/gh-pages/practicum/week-2/question1.JPG "Ten files uploaded to my blob")
