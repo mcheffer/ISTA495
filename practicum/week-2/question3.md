@@ -129,3 +129,7 @@ https://mchefferblob1.blob.core.windows.net/mcheffer-container/yellowTang.jpg
 </Blobs>
 <NextMarker/>
 </EnumerationResults>
+
+![blob access level](https://raw.githubusercontent.com/mcheffer/ISTA495/gh-pages/practicum/week-2/question3_accesslevel.JPG)
+
+![list results](https://raw.githubusercontent.com/mcheffer/ISTA495/gh-pages/practicum/week-2/list_results.JPG)
